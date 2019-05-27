@@ -1,0 +1,124 @@
+html {   
+    background-image: url(../images/ice.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20vw;;
+    margin-right: 20vw;;
+    align-content: center; 
+    overflow-y: scroll;  
+    height: 100%;
+}
+
+body {   
+    background-color: #8dd9df;  
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+    border: black solid;
+}
+
+nav a {
+    float: left;
+    list-style:none;
+    display: block;
+    color: #6ca8c4;
+    text-align:center;
+    padding: 12px 16px;
+    font-size: 25px;  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a:hover {
+    background-color: rgb(78, 86, 95);
+    color: black;
+}
+
+article {
+    text-align: justify;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+input[type=text], textarea, select {
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    resize: vertical;
+}
+
+.blogArt {
+    display: block;
+    text-align: justify;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    background: rgb(131, 175, 241);
+    margin-left: 20%;
+    margin-right: 20%;   
+    margin-bottom: 3%;
+}
+
+.hodorHead {
+    float: none;
+    max-width: 100%;
+}
+
+.hodorBig{
+    float: none;
+    max-width: 100%;
+}
+
+.door {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    float: none;
+    max-width: 100%;
+}
+
+#startContainer {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formContainer{
+    display: block;
+    background: rgb(131, 175, 241);
+    box-shadow: 0 2px 5px rgb(0, 0, 0); 
+    margin-left: 20%;
+    margin-right: 20%;    
+}
+
+

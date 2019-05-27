@@ -1,0 +1,11 @@
+/* PROJECT */
+
+	Project Name:   Practical assignment
+	Site URL:    https://1dv525.github.io/rd222dv-examination-1/
+	Created:     2018/09/07
+	Software:    Visual Studio Code
+
+/* AUTHOR */
+
+	Name:        Hodor
+	Nickname:    Hodor

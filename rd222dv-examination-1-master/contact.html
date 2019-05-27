@@ -1,0 +1,71 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact mhe!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8" />
+    <!-- Open graph tags -->
+    <meta property="og:title" content="Hodor - Contact">
+    <meta property="og:url" content="https://1dv525.github.io/rd222dv-examination-1/contact.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://1dv525.github.io/rd222dv-examination-1/images/hodor.jpg">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+        <header>
+            <h1>Contact</h1>
+        </header>
+
+        <!-- HTML form supporting HTTP POST method -->
+        <div id="formContainer">
+            <form action="contact.html" method="POST">
+                <fieldset>
+                    <legend>Ask your question</legend>
+                    <label for="type">Type</label>
+                    <select id="type">
+                        <option>Question</option>
+                        <option>Feedback</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" type="text">
+                    <br>
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" type="text">
+                    <br>
+                    <br>
+                    <label for="question">Question</label>
+                    <textarea id="question" rows="10" cols="30" placeholder></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>How should I contact you?</legend>
+                    <label for="telephone">
+                        <input id="telephone" type="checkbox">
+                        Telephone
+                    </label>
+                    <br>
+                    <br>
+                    <label for="e-mail">
+                        <input id="e-mail" type="checkbox">
+                        E-Mail
+                    </label>
+                </fieldset>
+                <button type="send">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
