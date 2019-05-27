@@ -1,0 +1,36 @@
+h1 {
+  margin-top: 10px;
+  text-align:center;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 9px;
+  font-weight: bold;
+}
+body {
+  text-align:center;
+}
+
+#radioBtnContainer {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+#textAnswerContainer {
+  text-align: center;
+}
+
+input[type=text] {
+  display: block;
+  margin: auto;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgb(0, 0, 0);
+  box-sizing: border-box;
+  text-align: justify;
+}

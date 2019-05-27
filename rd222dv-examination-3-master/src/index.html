@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Semantic UI treats words and classes as exchangeable concepts. Classes use syntax from natural
+        languages like noun/modifier relationships, word order, and plurality to link concepts intuitively.-->
+
+    <!--ui card: creating cards that display app content in a manner similar to a playing card-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="ui labeled icon menu">
+            <a id="chat" class="item">
+                <!--an element is only visible after user action - set the aria-hidden attribute to true-->
+                <i aria-hidden="true" class="chat icon"></i>
+                Chat
+            </a>
+            <a id="memory" class="item">
+                <i aria-hidden="true" class="game icon"></i>
+                Memory
+            </a>
+            <a id="quiz" class="item">
+                <i aria-hidden="true" class="question icon"></i>
+                Quiz
+            </a>
+            <a id="bart" class="item">
+                <i aria-hidden="true" class="write icon"></i>
+                Board
+            </a>
+        </div>
+    </nav>
+    <script src="build.js"></script>
+
+    <div id="main">
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.ui.form textarea:not([rows]) {
+  height: 4em;
+  min-height: 1em;
+  max-height: 4em;
+}
+
+#chat-messagesList {
+  overflow: auto;
+  height: 200px;
+}

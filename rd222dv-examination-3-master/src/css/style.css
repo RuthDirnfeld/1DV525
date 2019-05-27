@@ -1,0 +1,12 @@
+body {
+  background-image: url(../image/bricks-pattern.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.ui.card { 
+  position: absolute;
+}
+#header { 
+  background: gray; 
+}

@@ -1,0 +1,16 @@
+h1 {
+  margin-top: 10px;
+  text-align:center;
+}
+#memory-images img {
+  height: 60px;
+  width: 60px;
+}
+
+#memory-images .removed {
+  visibility: hidden
+}
+
+#timer {
+  text-align: center
+}
